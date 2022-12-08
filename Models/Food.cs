@@ -18,7 +18,8 @@ public class Food
     [Index(0)]
     public string? ExternalId { get; set; }
 
-    public FoodCategory? CategoryName { get; set; }
+    public string? CategoryName { get; set; }
+    public FoodCategory? Category { get; set; }
     [Index(5)]
     public string Unit { get; set; }
     [Index(6)]
